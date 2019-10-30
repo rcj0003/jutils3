@@ -1,0 +1,36 @@
+{
+    "cursor": ": ",
+    "commands": {
+        "default_commands": [
+            "jutils",
+            "help",
+            "quit",
+            "print",
+            "clear",
+            "wait",
+            "define"
+        ],
+        "hand_commands": [
+            "hand",
+            "unhand",
+            "store"
+        ],
+        "file_commands": [
+            "load_file",
+            "save_file",
+            "load_json",
+            "save_json"
+        ],
+        "table_commands": [
+            "dicloadinf",
+            "csvloadinf",
+            "dlsloadinf",
+            "fromtbl",
+            "peek",
+            "select",
+            "search",
+            "limit",
+            "results"
+        ]
+    }
+}

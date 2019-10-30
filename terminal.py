@@ -10,14 +10,14 @@ except:
     config = {
         "commands": {
             "default_commands": [
-			    "jutils",
+                "jutils",
                 "help",
                 "quit",
                 "print",
                 "clear",
                 "wait",
                 "define"
-			],
+            ],
             "hand_commands": [
                 "hand",
                 "unhand",
@@ -40,7 +40,7 @@ except:
                 "limit",
                 "results",
             ]
-		}
+        }
     }
 
 terminal = terminal.Terminal(["[jutils3 by rcj0003] Created @ 2019", ""], input, print, cursor = config.get("cursor", ": "))
